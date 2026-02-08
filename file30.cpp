@@ -1,6 +1,6 @@
-// input array size from user
-#include<bits/stdc++.h>
-using namespace std; 
+// to prints the squared elements of an array entered by the user
+#include <bits/stdc++.h>
+using namespace std;
 int main()
 {
     int n;
@@ -14,12 +14,10 @@ int main()
         cout<<"Enter element "<<i+1<<": ";
         cin>>arr[i];
     }
-    cout<<"You have entered the following elements: "<<endl;
+    cout<<"The squared elements are: "<<endl;
     for(i=0;i<n;i++)
     {
-        cout<<arr[i]<<endl;
+        cout<<arr[i]*arr[i]<<endl;
     }
     return 0;
-} 
-
-
+}

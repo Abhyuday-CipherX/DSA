@@ -1,6 +1,6 @@
-// input array size from user
-#include<bits/stdc++.h>
-using namespace std; 
+// using iterators
+#include <bits/stdc++.h>
+using namespace std;
 int main()
 {
     int n;
@@ -8,18 +8,16 @@ int main()
     cin>>n;
     vector<int> arr(n);
     int i;
-    cout<<"Enter "<<n<<" elements: "<<endl;
     for(i=0;i<n;i++)
     {
         cout<<"Enter element "<<i+1<<": ";
         cin>>arr[i];
     }
     cout<<"You have entered the following elements: "<<endl;
-    for(i=0;i<n;i++)
+    vector<int>::iterator it;
+    for(it=arr.begin();it!=arr.end();it++)
     {
-        cout<<arr[i]<<endl;
+        cout<<*it<<endl;
     }
-    return 0;
-} 
 
-
+}
