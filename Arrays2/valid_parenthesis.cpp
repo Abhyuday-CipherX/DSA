@@ -39,3 +39,18 @@ class solution
         return true;
 }
 };
+int main()
+{
+    string str;
+    cin>>str;
+    solution s;
+    if(s.isValid(str))
+    {
+        cout<<"true";
+    }
+    else
+    {
+        cout<<"false";
+    }
+    return 0;
+}
