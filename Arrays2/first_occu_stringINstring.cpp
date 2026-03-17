@@ -23,14 +23,15 @@ class solution
             }
         }
         return -1;
-
     }
 };
 int main()
 {
+    
     solution s;
     string haystack="sadbutsad";
     string needle="sad";
     cout<<s.strStr(haystack,needle);
     return 0;
+
 }

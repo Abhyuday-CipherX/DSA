@@ -3,6 +3,7 @@ using namespace std;
 class solution
 {
     public:
+    
     bool isValid(string s)
     {
         int n=s.size();
