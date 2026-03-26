@@ -11,6 +11,7 @@ int singleNumber(vector<int> &nums)
             if (i != j && nums[i] == nums[j])
             {
                 count++;
+                
                 break;
             }
         }

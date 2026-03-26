@@ -18,6 +18,7 @@ class solution
         if(digits[0]>9)
         {
             digits[0]=0;
+            
             digits.insert(digits.begin(),1);
         }
         return digits;
