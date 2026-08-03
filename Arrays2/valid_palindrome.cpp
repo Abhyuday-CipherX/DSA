@@ -17,7 +17,6 @@ bool isPalindrome(string s)
         }
         else
         {
-
             s.erase(s.begin() + i);
         }
     }
